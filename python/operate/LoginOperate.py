@@ -57,5 +57,6 @@ def login(username,password):
         time.sleep(2)
     result = u"登录成功"
     print(u"登录成功")
+    print(u"成功")
     return  result
 
