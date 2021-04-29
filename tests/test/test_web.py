@@ -3,7 +3,7 @@ import pytest
 from python.base.Config import driver
 from python.operate import LoginOperate, FoodManage, DisinfectionManage, PersonnalManage
 
-def setup_module():
+def setup():
     url = 'http://218.6.70.66:25046/#/login'
     driver.get(url)
     driver.maximize_window()
@@ -34,6 +34,7 @@ def test_addMorningCheck():
     result = PersonnalManage.addMorningCheck()
     assert  result == u"新增晨检完成"
 
-def teardown_module():
+def teardown():
     driver.close()
+    driver.quit()
     print("close broswer")
