@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="290b4a3b-6ac9-42d8-810d-365ac472bbed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SeleniumProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SeleniumProiect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/base/BaseOperate.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/base/BaseOperate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/base/Config.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/base/Config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/operate/DisinfectionManage.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/operate/DisinfectionManage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/operate/FoodManage.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/operate/FoodManage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/operate/LoginOperate.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/operate/LoginOperate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/operate/PersonnalManage.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/operate/PersonnalManage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/operate/code.png" beforeDir="false" afterPath="$PROJECT_DIR$/python/operate/code.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test/code.png" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test/code.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test/pytest.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test/test_web.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test/test_web.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,10 +41,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test/test_web.py">
+        <entry file="file://$PROJECT_DIR$/python/operate/FoodManage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <state relative-caret-position="593">
+              <caret line="119" column="27" lean-forward="true" selection-start-line="119" selection-start-column="27" selection-end-line="119" selection-end-column="27" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -39,18 +53,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test/pytest.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/unittest/unittest_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="336">
               <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -59,14 +64,89 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/operate/DisinfectionManage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="467">
+              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/test/test_web.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/operate/PersonnalManage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/operate/LoginOperate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-949">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/base/BaseOperate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/support/wait.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9720">
+              <caret line="410" column="32" selection-start-line="410" selection-start-column="32" selection-end-line="410" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/base/Config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -84,6 +164,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>show all</find>
+      <find>('</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,18 +178,18 @@
         <option value="$PROJECT_DIR$/python/operate/CheckCode.py" />
         <option value="$PROJECT_DIR$/tests/test/SeleniumTest.py" />
         <option value="$PROJECT_DIR$/tests/test/test.py" />
-        <option value="$PROJECT_DIR$/python/operate/DisinfectionManage.py" />
-        <option value="$PROJECT_DIR$/python/operate/FoodManage.py" />
         <option value="$PROJECT_DIR$/tests/report/testReport.html" />
-        <option value="$PROJECT_DIR$/python/base/Config.py" />
-        <option value="$PROJECT_DIR$/python/base/BaseOperate.py" />
         <option value="$PROJECT_DIR$/tests/test/test_aaa.py" />
-        <option value="$PROJECT_DIR$/python/operate/PersonnalManage.py" />
-        <option value="$PROJECT_DIR$/python/operate/LoginOperate.py" />
         <option value="$PROJECT_DIR$/tests/unittest/unittest_demo.py" />
-        <option value="$PROJECT_DIR$/tests/test/test_web.py" />
         <option value="$PROJECT_DIR$/tests/pytest.ini" />
         <option value="$PROJECT_DIR$/tests/test/pytest.ini" />
+        <option value="$PROJECT_DIR$/python/base/Config.py" />
+        <option value="$PROJECT_DIR$/python/operate/LoginOperate.py" />
+        <option value="$PROJECT_DIR$/python/base/BaseOperate.py" />
+        <option value="$PROJECT_DIR$/python/operate/DisinfectionManage.py" />
+        <option value="$PROJECT_DIR$/python/operate/FoodManage.py" />
+        <option value="$PROJECT_DIR$/python/operate/PersonnalManage.py" />
+        <option value="$PROJECT_DIR$/tests/test/test_web.py" />
       </list>
     </option>
   </component>
@@ -206,67 +287,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_web.test_login">
-    <configuration default="true" type="DjangoTestsConfigurationType">
-      <module name="SeleniumProject" />
+  <component name="RunManager" selected="Python tests.pytest for test_web.Test_py.test_login">
+    <configuration name="FoodManage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SeleniumProiect" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/operate" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <module name="SeleniumProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <module name="SeleniumProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="SeleniumProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/operate/FoodManage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -275,68 +310,46 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="Python.FlaskServer">
-      <module name="SeleniumProject" />
+    <configuration name="LoginOperate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SeleniumProiect" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/operate" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/operate/LoginOperate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="SeleniumProject" />
+    <configuration name="pytest for test_web.Test_py.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProiect" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="SeleniumProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <module name="SeleniumProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_web.Test_py.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_web.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumProject" />
+      <module name="SeleniumProiect" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -351,40 +364,8 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for unittest_demo.UnitTest_Demo" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unittest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittest_demo.UnitTest_Demo&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for unittest_demo.UnitTest_Demo.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unittest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittest_demo.UnitTest_Demo.test_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_aaa.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumProject" />
+    <configuration name="pytest in test_web.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProiect" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -395,40 +376,24 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test/test_aaa.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in unittest_demo.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unittest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/unittest/unittest_demo.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test/test_web.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.LoginOperate" />
+      <item itemvalue="Python.FoodManage" />
+      <item itemvalue="Python tests.pytest in test_web.py" />
       <item itemvalue="Python tests.pytest for test_web.test_login" />
-      <item itemvalue="Python tests.pytest in test_aaa.py" />
-      <item itemvalue="Python tests.pytest for unittest_demo.UnitTest_Demo.test_login" />
-      <item itemvalue="Python tests.pytest for unittest_demo.UnitTest_Demo" />
-      <item itemvalue="Python tests.pytest in unittest_demo.py" />
+      <item itemvalue="Python tests.pytest for test_web.Test_py.test_login" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in unittest_demo.py" />
-        <item itemvalue="Python tests.pytest for unittest_demo.UnitTest_Demo" />
-        <item itemvalue="Python tests.pytest for unittest_demo.UnitTest_Demo.test_login" />
-        <item itemvalue="Python tests.pytest in test_aaa.py" />
+        <item itemvalue="Python tests.pytest for test_web.Test_py.test_login" />
+        <item itemvalue="Python.FoodManage" />
+        <item itemvalue="Python.LoginOperate" />
         <item itemvalue="Python tests.pytest for test_web.test_login" />
+        <item itemvalue="Python tests.pytest in test_web.py" />
       </list>
     </recent_temporary>
   </component>
@@ -484,7 +449,16 @@
       <workItem from="1621407662025" duration="2321000" />
       <workItem from="1621577289024" duration="5962000" />
       <workItem from="1621821145193" duration="71000" />
-      <workItem from="1621840948275" duration="2958000" />
+      <workItem from="1621840948275" duration="3611000" />
+      <workItem from="1621923316534" duration="10876000" />
+      <workItem from="1621937073674" duration="915000" />
+      <workItem from="1621995505887" duration="4964000" />
+      <workItem from="1622081716596" duration="842000" />
+      <workItem from="1622109304328" duration="846000" />
+      <workItem from="1622164941200" duration="2972000" />
+      <workItem from="1622189929612" duration="5010000" />
+      <workItem from="1622425381654" duration="1723000" />
+      <workItem from="1622427161494" duration="8705000" />
     </task>
     <task id="LOCAL-00001" summary="测试一下">
       <created>1619596360460</created>
@@ -521,43 +495,57 @@
       <option name="project" value="LOCAL" />
       <updated>1621845990301</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="改了项目的name">
+      <created>1621846681146</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621846681146</updated>
+    </task>
+    <task id="LOCAL-00007" summary="改了项目的name">
+      <created>1621846782316</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1621846782316</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_aaa_py - 2021.01.15 at 15h 33m 03s.xml">
-      <configuration name="pytest in test_aaa.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_web_py - 2021.05.25 at 15h 39m 13s.xml">
+      <configuration name="pytest in test_web.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_aaa_py - 2021.01.15 at 15h 33m 30s.xml">
-      <configuration name="pytest in test_aaa.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_web_py - 2021.05.25 at 15h 42m 55s.xml">
+      <configuration name="pytest in test_web.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_aaa_py - 2021.01.15 at 15h 37m 07s.xml">
-      <configuration name="pytest in test_aaa.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_web_py - 2021.05.25 at 15h 43m 08s.xml">
+      <configuration name="pytest in test_web.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_unittest_demo_UnitTest_Demo_test_login - 2021.05.17 at 14h 23m 39s.xml">
-      <configuration name="pytest for unittest_demo.UnitTest_Demo.test_login" configurationId="tests" />
+    <history-entry file="pytest_in_test_web_py - 2021.05.25 at 15h 48m 49s.xml">
+      <configuration name="pytest in test_web.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_unittest_demo_UnitTest_Demo - 2021.05.17 at 14h 27m 43s.xml">
-      <configuration name="pytest for unittest_demo.UnitTest_Demo" configurationId="tests" />
+    <history-entry file="pytest_in_test_web_py - 2021.05.25 at 15h 50m 12s.xml">
+      <configuration name="pytest in test_web.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_unittest_demo_py - 2021.05.17 at 14h 43m 16s.xml">
-      <configuration name="pytest in unittest_demo.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_web_py - 2021.05.25 at 15h 52m 23s.xml">
+      <configuration name="pytest in test_web.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_unittest_demo_py - 2021.05.17 at 14h 46m 42s.xml">
-      <configuration name="pytest in unittest_demo.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_web_py - 2021.05.25 at 15h 53m 20s.xml">
+      <configuration name="pytest in test_web.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_unittest_demo_py - 2021.05.17 at 15h 27m 17s.xml">
-      <configuration name="pytest in unittest_demo.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_web_py - 2021.05.25 at 15h 54m 52s.xml">
+      <configuration name="pytest in test_web.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_unittest_demo_py - 2021.05.17 at 15h 29m 22s.xml">
-      <configuration name="pytest in unittest_demo.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_web_test_login - 2021.05.25 at 16h 06m 20s.xml">
+      <configuration name="pytest for test_web.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_unittest_demo_py - 2021.05.17 at 15h 30m 35s.xml">
-      <configuration name="pytest in unittest_demo.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_web_Test_py_test_login - 2021.05.31 at 11h 38m 30s.xml">
+      <configuration name="pytest for test_web.Test_py.test_login" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123126000" />
+    <option name="totallyTimeSpent" value="160632000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -570,19 +558,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990476" visible="true" weight="0.33422747" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990476" visible="true" weight="0.37982833" />
       <window_info id="Structure" order="1" sideWeight="0.50095236" side_tool="true" weight="0.25214592" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295711" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.40744922" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39954853" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295711" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295711" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946353" weight="0.3295711" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005365" side_tool="true" weight="0.3295711" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946353" weight="0.3295711" />
@@ -645,19 +634,34 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试一下" />
     <MESSAGE value="些许改动" />
     <MESSAGE value="新增Unittest的demo与pytest的配置" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="改了项目的name" />
+    <option name="LAST_COMMIT_MESSAGE" value="改了项目的name" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SeleniumProiect$pytest_for_unittest_demo_UnitTest_Demo.coverage" NAME="pytest for unittest_demo.UnitTest_Demo Coverage Results" MODIFIED="1621232846346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/unittest" />
-    <SUITE FILE_PATH="coverage/SeleniumProiect$pytest_in_test_web_py.coverage" NAME="pytest in test_web.py Coverage Results" MODIFIED="1600161979683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/test" />
+    <SUITE FILE_PATH="coverage/SeleniumProiect$pytest_in_test_web_py.coverage" NAME="pytest in test_web.py Coverage Results" MODIFIED="1621929257316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/test" />
     <SUITE FILE_PATH="coverage/SeleniumProiect$SeleniumTest.coverage" NAME="SeleniumTest Coverage Results" MODIFIED="1599460682324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/test" />
-    <SUITE FILE_PATH="coverage/SeleniumProiect$FoodManage.coverage" NAME="FoodManage Coverage Results" MODIFIED="1599809058312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/operate" />
+    <SUITE FILE_PATH="coverage/SeleniumProiect$FoodManage.coverage" NAME="FoodManage Coverage Results" MODIFIED="1622431094528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/operate" />
     <SUITE FILE_PATH="coverage/SeleniumProiect$test.coverage" NAME="test Coverage Results" MODIFIED="1599461959808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/test" />
     <SUITE FILE_PATH="coverage/SeleniumProiect$pytest_for_test_web_test_addFood.coverage" NAME="pytest for test_web.test_addFood Coverage Results" MODIFIED="1599645664162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/test" />
     <SUITE FILE_PATH="coverage/SeleniumProiect$DisinfectionManage.coverage" NAME="DisinfectionManage Coverage Results" MODIFIED="1599639776052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/operate" />
@@ -668,22 +672,13 @@
     <SUITE FILE_PATH="coverage/SeleniumProiect$Config.coverage" NAME="Config Coverage Results" MODIFIED="1599621004103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/base" />
     <SUITE FILE_PATH="coverage/SeleniumProiect$pytest_for_test_web_test_addDisinfectionManual.coverage" NAME="pytest for test_web.test_addDisinfectionManual Coverage Results" MODIFIED="1600075932561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/test" />
     <SUITE FILE_PATH="coverage/SeleniumProiect$pytest_for_test_web_test_addMorningCheck.coverage" NAME="pytest for test_web.test_addMorningCheck Coverage Results" MODIFIED="1600076089251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/test" />
-    <SUITE FILE_PATH="coverage/SeleniumProiect$LoginOperate.coverage" NAME="LoginOperate Coverage Results" MODIFIED="1609925490812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/operate" />
-    <SUITE FILE_PATH="coverage/SeleniumProiect$pytest_for_test_web_test_login.coverage" NAME="pytest for test_web.test_login Coverage Results" MODIFIED="1609925751420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/test" />
+    <SUITE FILE_PATH="coverage/SeleniumProiect$pytest_for_test_web_Test_py_test_login.coverage" NAME="pytest for test_web.Test_py.test_login Coverage Results" MODIFIED="1622432245299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/test" />
+    <SUITE FILE_PATH="coverage/SeleniumProiect$pytest_for_test_web_test_login.coverage" NAME="pytest for test_web.test_login Coverage Results" MODIFIED="1621929958712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/test" />
+    <SUITE FILE_PATH="coverage/SeleniumProiect$LoginOperate.coverage" NAME="LoginOperate Coverage Results" MODIFIED="1622428145318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/operate" />
     <SUITE FILE_PATH="coverage/SeleniumProiect$PersonnalManage.coverage" NAME="PersonnalManage Coverage Results" MODIFIED="1599642771566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/operate" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/python/operate/CheckCode.py" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="1063" selection-start-line="1063" selection-end-line="1063" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/operate/code.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/_pytest/nodes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -719,28 +714,11 @@
     <entry file="file://$PROJECT_DIR$/tests/test/code.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/operate/PersonnalManage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/python/base/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/base/Config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
@@ -763,10 +741,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/_pytest/mark/structures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="475" column="8" selection-start-line="475" selection-start-column="8" selection-end-line="475" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/iniconfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test/pytest.ini" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pytest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="953" column="8" selection-start-line="953" selection-start-column="8" selection-end-line="953" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/operate/code.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unittest/unittest_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9720">
+          <caret line="410" column="32" selection-start-line="410" selection-start-column="32" selection-end-line="410" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/base/Config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/base/BaseOperate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python/operate/FoodManage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        <state relative-caret-position="593">
+          <caret line="119" column="27" lean-forward="true" selection-start-line="119" selection-start-column="27" selection-end-line="119" selection-end-column="27" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -775,62 +829,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/operate/LoginOperate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+        <state relative-caret-position="-949">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/base/BaseOperate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/_pytest/mark/structures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="475" column="8" selection-start-line="475" selection-start-column="8" selection-end-line="475" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test/test_web.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unittest/unittest_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/operate/DisinfectionManage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="467">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/operate/PersonnalManage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test/test_web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

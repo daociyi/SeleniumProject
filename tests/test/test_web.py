@@ -1,47 +1,64 @@
 import pytest
+from pytest import assume
+# from python.base.Config import driver
+from selenium import webdriver
+from python.operate.DisinfectionManage import DisinfectionPage
+from python.operate.FoodManage import FoodPage
+from python.operate.LoginOperate import LoginPage
+from python.operate.PersonnalManage import PersonPage
 
-from python.base.Config import driver
-from python.operate import LoginOperate, FoodManage, DisinfectionManage, PersonnalManage
 
-class py_test:
-    @classmethod
+class Test_py:
     def setup_class(self):
-        url = 'http://218.6.70.66:25046/#/login'
-        driver.get(url)
-        driver.maximize_window()
-        driver.execute_script("document.body.style.zoom='0.8'")
+        self.driver = webdriver.Chrome()
+        self.lg = LoginPage(self.driver)
+        self.fg = FoodPage(self.driver)
+        self.dg = DisinfectionPage(self.driver)
+        self.pg = PersonPage(self.driver)
         print("open broswer")
 
-    def test_login(self):
-        result = LoginOperate.login('test','123456')
-        assert result == u"登录成功"
+    def teardown_class(self):
+        self.driver.close()
+        self.driver.quit()
+        print("close broswer")
+
+    @pytest.fixture()
+    def username(self):
+        username = 'dtzxqp'
+        return username
+    @pytest.fixture()
+    def password(self):
+        password = 123456
+        return password
+
+    def test_login(self,username,password):
+        result = self.lg.login(username=username,password=password)
+        assert  result == u"登录成功","通过"
     # @pytest.mark.skip() 无理由跳过用例
     # @pytest.mark.skipif() 中间为条件与reason 符合条件跳过并显示理由
     def test_addFood(self):
-        result = FoodManage.addFood(u"香肉")
+        result = self.fg.addFood(u"香肉")
         assert  result == u"新增台账完成"
     def test_addReserveSample(self):
-        result = FoodManage.addReserveSample(u"糖醋排骨")
+        result = self.fg.addReserveSample(u"糖醋排骨")
         assert result ==u"新增菜品留样完成"
 
     # @pytest.mark.xfail (strict=True)
     def test_addDineRecord(self):
-        result = FoodManage.addDineRecord(u"小当家",u"特级厨师",u"好吃，不错")
+        result = self.fg.addDineRecord(u"小当家",u"特级厨师",u"好吃，不错")
         assert  result ==u"新增陪餐完成"
 
     def test_addDisinfectionManual(self):
-        result = DisinfectionManage.addDisinfectionManual(u"碗，汤匙","100","2")
+        result = self.dg.addDisinfectionManual(u"碗，汤匙","100","2")
         assert result ==  u"增加消毒记录成功"
 
     def test_addMorningCheck(self):
-        result = PersonnalManage.addMorningCheck()
+        result = self.pg.addMorningCheck()
         assert  result == u"新增晨检完成"
 
-    def teardown_class(self):
-        driver.close()
-        driver.quit()
-        print("close broswer")
+
 
 
 if __name__ == '__main__':
-    pytest.main(["-s","test_web.py"])
+    pytest.main(['-s -v','test_web.py'])
+
