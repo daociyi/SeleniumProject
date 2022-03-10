@@ -2,10 +2,11 @@ import time
 
 import pytesseract
 from PIL import Image
+from selenium import webdriver
 
 
 class BaseOperate:
-
+    # driver = webdriver.Chrome()
     def __init__(self,driver):
         self.driver = driver
         self.driver.maximize_window()
@@ -25,14 +26,32 @@ class BaseOperate:
         self.inputXPath2.send_keys(text)
         time.sleep(1)
 
+    def findElementByCssSelector(self,css_selector):
+        self.css_picture = self.driver.find_element_by_css_selector(css_selector)
+        return self.css_picture
+
+    def getTextByClassName(self,classname):
+        self.text = self.driver.find_element_by_class_name(classname).text
+        return self.text
+
+
     def clickDelay(self,xpath):
         clickXPath = self.driver.find_element_by_xpath(xpath)
         self.driver.execute_script("arguments[0].click();",clickXPath)
         time.sleep(1)
 
+    def clickDelay_by_list(self,list):
+        self.driver.execute_script("arguments[0].click();",list)
+        time.sleep(1)
+
     def listElementXPathAndClass(self,xpath,classname):
-        list = self.driver.find_elements_by_xpath(xpath)
-        arrayList = list.__getitem__(0).find_elements_by_class_name(classname)
+        self.list = self.driver.find_elements_by_xpath(xpath)
+        arrayList = self.list.__getitem__(0).find_elements_by_class_name(classname)
+        return  arrayList
+
+    def listElementXPathAndLinktext(self,xpath,link_text):
+        self.list = self.driver.find_elements_by_xpath(xpath)
+        arrayList = self.list.__getitem__(0).find_elements_by_link_text(link_text)
         return  arrayList
 
     def codeVerification(self,img):

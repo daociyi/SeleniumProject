@@ -3,6 +3,7 @@ import time
 
 from selenium import webdriver
 
+
 from python.base.BaseOperate import BaseOperate
 
 from python.operate.LoginOperate import LoginPage
@@ -11,38 +12,58 @@ class FoodPage(BaseOperate):
     def addFood(self,product):
         print(self.driver.current_window_handle)
         url = 'http://218.6.70.66:25046/#/foodManage'
-        driver.implicitly_wait(2)
-        # a = BaseOperate.listElementXPathAndClass(self,'//*[@id="header"]/div[2]/div','nav')
-        # self.driver.execute_script("arguments[0].click();",a[2])
-
-        # print(a[2])
-        # driver.find_element_by_xpath('//*[@id="header"]/div[2]/div/a[3]').click()
-
-        # BaseOperate.clickDelay(self,'//*[@id="header"]/div[2]/div/a[3]')
+        self.driver.implicitly_wait(2)
         BaseOperate.open_url(self,url=url)
         BaseOperate.clickDelay(self,'/html/body/div/div/div[2]/div[2]/div/div[1]/div[2]/button[1]')
         num = random.randint(1,150)
         BaseOperate.findItemInputViewt(self,'//*[@id="accountRecordDetail"]/form/div[1]/div[3]/div/div[1]/input',num)
-
         BaseOperate.clickDelay(self,'//*[@id="accountRecordDetail"]/form/div[1]/div[4]/div/div/div/input')
         sup_li = BaseOperate.listElementXPathAndClass(self,'/html/body/div[3]/div[1]/div[1]/ul','el-select-dropdown__item')
-
         sup_num = random.randint(0,len(sup_li)-1)
         self.driver.execute_script("arguments[0].click();",sup_li[sup_num])
-
         BaseOperate.clickDelay(self,'//*[@id="accountRecordDetail"]/form/div[1]/div[5]/div/div/div/input')
         checkPerson_li = BaseOperate.listElementXPathAndClass(self,'/html/body/div[4]/div[1]/div[1]/ul','el-select-dropdown__item')
         checkPerson_num = random.randint(0,len(checkPerson_li)-1)
-        self.driver.execute_script("arguments[0].click();",checkPerson_li[checkPerson_num])
-
-
-
+        BaseOperate.clickDelay_by_list(self,checkPerson_li[checkPerson_num])
         BaseOperate.findItemInputViewt(self,'//*[@id="accountRecordDetail"]/form/div[1]/div[1]/div/div/div/input',product)
         BaseOperate.findItemInputViewt(self,'//*[@id="accountRecordDetail"]/form/div[4]/div[2]/div[1]/div/input',r"C:\Users\Administrator\Desktop\QQ截图20200616163201.png")
         BaseOperate.clickDelay(self,'//*[@id="accountRecordDetail"]/form/div[5]/button')
         result = u"新增台账完成"
         print(u"新增台账完成")
         return result
+
+    def updateFood(self,update_product_name):
+        url = 'http://218.6.70.66:25046/#/foodManage'
+        BaseOperate.open_url(self,url=url)
+        time.sleep(2)
+        record_list = BaseOperate.listElementXPathAndLinktext(self,'//*[@id="accountRecord"]/div[3]/table',"详细信息")
+        record_list_num = random.randint(0,len(record_list)-1)
+        BaseOperate.clickDelay_by_list(self,record_list[record_list_num])
+        num = random.randint(1,150)
+        BaseOperate.findElementByXPathClear(self,'//*[@id="accountRecordDetail"]/form/div[1]/div[3]/div/div[1]/input')
+        BaseOperate.findItemInputViewt(self,'//*[@id="accountRecordDetail"]/form/div[1]/div[3]/div/div[1]/input',num)
+        BaseOperate.clickDelay(self,'//*[@id="accountRecordDetail"]/form/div[1]/div[4]/div/div/div/input')
+        sup_li = BaseOperate.listElementXPathAndClass(self,'/html/body/div[3]/div[1]/div[1]/ul','el-select-dropdown__item')
+        sup_num = random.randint(0,len(sup_li)-1)
+        BaseOperate.clickDelay_by_list(self,sup_li[sup_num])
+        BaseOperate.clickDelay(self,'//*[@id="accountRecordDetail"]/form/div[1]/div[5]/div/div/div/input')
+        checkPerson_li = BaseOperate.listElementXPathAndClass(self,'/html/body/div[4]/div[1]/div[1]/ul','el-select-dropdown__item')
+        checkPerson_num = random.randint(0,len(checkPerson_li)-1)
+        BaseOperate.clickDelay_by_list(self,checkPerson_li[checkPerson_num])
+        BaseOperate.findElementByXPathClear(self,'//*[@id="accountRecordDetail"]/form/div[1]/div[1]/div/div/div/input')
+        BaseOperate.findItemInputViewt(self,'//*[@id="accountRecordDetail"]/form/div[1]/div[1]/div/div/div/input',update_product_name)
+        BaseOperate.clickDelay(self,'//*[@id="accountRecordDetail"]/form/div[5]/button')
+        # alert_resul = driver.find_element_by_class_name('el-message__content')
+        # print(alert_resul.text)
+        alert_result = BaseOperate.getTextByClassName(self,'el-message__content')
+        # print(alert_result)
+        # text = alert_result.text
+        # print(text)
+        # result = u"修改台账完成"
+        # print(u"修改台账完成")
+        return alert_result
+
+
 
     def addReserveSample(self,dish):
         # a = BaseOperate.listElementXPathAndClass(self,'/html/body/div/div/div[1]/header/ul','nav')
@@ -114,13 +135,14 @@ class FoodPage(BaseOperate):
         print(u"新增陪餐完成")
         result = u"新增陪餐完成"
         return result
-# if __name__ == '__main__':
-#     driver = webdriver.Chrome()
-#     lg = LoginPage(driver)
-#     fg = FoodPage(driver)
-#     lg.login('dtzxqp','123456')
-#     # fg.addFood(u"老腊肉")
-#     fg.addReserveSample(u"卤猪蹄")
-#     # fg.addDineRecord(u"小当家","特级厨师","好吃，还不错")
-#     driver.close()
-#     driver.quit()
+if __name__ == '__main__':
+    driver = webdriver.Chrome()
+    lg = LoginPage(driver)
+    fg = FoodPage(driver)
+    lg.login('test','123456')
+    fg.updateFood(u"小酥肉")
+    # fg.addFood(u"老腊肉")
+    # fg.addReserveSample(u"卤猪蹄")
+    # fg.addDineRecord(u"小当家","特级厨师","好吃，还不错")
+    # driver.close()
+    # driver.quit()

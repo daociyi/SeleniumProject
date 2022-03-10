@@ -6,16 +6,24 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as  EC
 from selenium.webdriver.support.wait import WebDriverWait
 from python.base.BaseOperate import BaseOperate
+from python.log.log import Logger
 
 
-class LoginPage(BaseOperate):
+class LoginPage(BaseOperate,Logger):
     def login(self,username,password):
-        url = 'http://218.6.70.66:25046/#/login'
+        url = 'http://192.168.16.233:25046/#/login'
         print(self.driver.current_window_handle)
         BaseOperate.open_url(self,url=url)
         BaseOperate.html_zoom(self,"document.body.style.zoom='0.8'")
-        BaseOperate.findItemInputViewt(self,'//*[@id="login"]/div[3]/div[1]/div[2]/input',username)
-        BaseOperate.findItemInputViewt(self,'//*[@id="login"]/div[3]/div[2]/div[2]/input',password)
+        try:
+
+            BaseOperate.findItemInputViewt(self,'//*[@id="login"]/div[3]/div[1]/div[2]/input',username)
+            BaseOperate.findItemInputViewt(self,'//*[@id="login"]/div[3]/div[2]/div[2]/input',password)
+            msg = u"输入账号和密码成功"
+            Logger.get_Infolog(self,msg)
+        except:
+            msg = u"失败"
+            Logger.get_Infolog(self,msg)
         # tets = driver.find_element_by_xpath('//*[@id="login"]/div[3]/div[2]/div[2]/input').get_attribute("class")
         # print(tets)
         #获取当前url用于后面条件判断
@@ -25,7 +33,7 @@ class LoginPage(BaseOperate):
             #对当前url进行判断，当current_url不等于url时才结束判断
         while  url ==self.driver.current_url:
             time.sleep(1)
-            code = self.driver.find_element_by_css_selector('#vCanvas')
+            code = BaseOperate.findElementByCssSelector(self,'#vCanvas')
             #获取验证码图像元素的大小（x，y）
             location = code.location
             #获取验证码元素的尺寸（width，height）
@@ -74,8 +82,8 @@ class LoginPage(BaseOperate):
         print(u"登录成功")
         print(u"成功")
         return  result
-# if __name__ == '__main__':
-#     driver = webdriver.Chrome()
-#     lp = LoginPage(driver)
-#     lp.login('admin','admin')
-#     driver.quit()
+if __name__ == '__main__':
+    driver = webdriver.Chrome()
+    lp = LoginPage(driver)
+    lp.login('admin','admin')
+    driver.quit()
