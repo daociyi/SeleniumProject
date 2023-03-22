@@ -1,0 +1,49 @@
+- name : $csv{name}
+  id : $csv{name}
+    info :
+      classname : $csv{classname}
+      studentname : $cvs{studentname}
+      score : ${score}
+      level : ${level}
+- name : $csv{name}
+  id : $csv{name}
+    info :
+      classname : $csv{classname}
+      studentname : $cvs{studentname}
+      score : ${score}
+      level : ${level}
+- name : $csv{name}
+  id : $csv{name}
+    info :
+      classname : $csv{classname}
+      studentname : $cvs{studentname}
+      score : ${score}
+      level : ${level}
+- name : $csv{name}
+  id : $csv{name}
+    info :
+      classname : $csv{classname}
+      studentname : $cvs{studentname}
+      score : ${score}
+      level : ${level}
+- name : $csv{name}
+  id : $csv{name}
+    info :
+      classname : $csv{classname}
+      studentname : $cvs{studentname}
+      score : ${score}
+      level : ${level}
+- name : $csv{name}
+  id : $csv{name}
+    info :
+      classname : $csv{classname}
+      studentname : $cvs{studentname}
+      score : ${score}
+      level : ${level}
+- name : $csv{name}
+  id : $csv{name}
+    info :
+      classname : $csv{classname}
+      studentname : $cvs{studentname}
+      score : ${score}
+      level : ${level}

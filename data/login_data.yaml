@@ -1,0 +1,8 @@
+#userInfo:
+#  username : admin
+#  password : admin
+
+- userInfo:
+  username : tests
+  password : 123456
+
