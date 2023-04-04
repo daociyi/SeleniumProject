@@ -13,7 +13,9 @@ class Logger(object):
         # print(cp)
         # dn = os.path.dirname((os.path.dirname("D:\pythonworkspace\SeleniumProject\python\log")))
         # print(dn)
-        log_path = os.path.join(os.path.dirname(os.getcwd())+"./data")
+        log_path = os.path.dirname(os.getcwd())+"\SeleniumProject\data"
+        # pp = os.path.dirname(os.getcwd())
+        # print(pp)
         # print(log_path)
         log_title = os.path.join(log_path,logname)+'.txt'
         # print(log_title)
@@ -28,10 +30,10 @@ class Logger(object):
         return  self.logger.info(msg)
     def getErrorLog(self,msg):
         return self.logger.error(msg)
-if __name__ == "__main__":
-    log = Logger()
-
-    log.getLog("45kkk6")
+# if __name__ == "__main__":
+#     log = Logger("1112221")
+#
+#     log.getLog("45kkk6")
 
 
 # logger = logging.getLogger("wudi")

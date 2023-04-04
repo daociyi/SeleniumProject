@@ -9,12 +9,12 @@ from log.Log import Logger
 
 
 class BaseOperate():
+
     def __init__(self,driver,loggname):
     # def __init__(self,loggname):
         # driver = webdriver.Firefox
-        self.driver = webdriver.Chrome()
         self.logger = Logger(loggname)
-        # self.driver = driver
+        self.driver = driver
         self.driver.maximize_window()
 
 

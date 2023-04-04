@@ -24,7 +24,7 @@ class Test_py(object):
         # self.browser.add_argument('--disable-gpu')
         driver = webdriver.Chrome()
         self.lg = LoginPage(driver,u"登录测试日志")
-        self.fg = FoodPage(driver,"食材管理日志")
+        self.fg = FoodPage(driver,u"食材管理日志")
         # self.dg = DisinfectionPage(driver)
         # self.pg = PersonPage(driver)
         print("open broswer")
@@ -54,9 +54,9 @@ class Test_py(object):
 
     # # @pytest.mark.skip() 无理由跳过用例
     # # @pytest.mark.skipif() 中间为条件与reason 符合条件跳过并显示理由
-    # def test_addFood(self):
-    #     result = self.fg.addFood(u"茴香饺子")
-    #     assert  result == u"新增台账完成"
+    def test_addFood(self):
+        result = self.fg.addFood(u"茴香饺子")
+        assert  result == u"新增台账完成"
     #
     # def test_updataFood(self):
     #     result = self.fg.updateFood(u"香肉")
