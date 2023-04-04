@@ -23,7 +23,7 @@ class Test_py(object):
         # self.browser.add_argument('--headless')
         # self.browser.add_argument('--disable-gpu')
         driver = webdriver.Chrome()
-        self.lg = LoginPage(driver,"登录测试日志")
+        self.lg = LoginPage(driver,u"登录测试日志")
         self.fg = FoodPage(driver,"食材管理日志")
         # self.dg = DisinfectionPage(driver)
         # self.pg = PersonPage(driver)
@@ -82,21 +82,21 @@ class Test_py(object):
 
 
 
-if __name__ == '__main__':
-    # current_time1 = datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
-    # # report = '--html=./report/'+'2021-06-03 18 03 15'+'\''report.html'
-    # report = '--html=./report/'+current_time1+' report.html'
-    # report_name = current_time1+' report.html'
-    # # print(str(report))
-    # # # pytest.main(['-s','-v','test_web.py',"--html=./re/res.html"])
-    # pytest.main(["-m","-s","-v",report,"--self-contained-html"])
-    # # 运行产出报告并发送至邮箱
-    # # email = SendEmail().mail(report_name)
-    # # if email:
-    # #     print("邮件发送成功")
-    # # else:
-    # #     print("邮件发送失败")
-    # print(os.getcwd())
-    pytest.main()
-    sleep(5)
-    os.system("allure generate ./allure-results -o ./allure-reports --clean")
+# if __name__ == '__main__':
+#     # current_time1 = datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
+#     # # report = '--html=./report/'+'2021-06-03 18 03 15'+'\''report.html'
+#     # report = '--html=./report/'+current_time1+' report.html'
+#     # report_name = current_time1+' report.html'
+#     # # print(str(report))
+#     # # # pytest.main(['-s','-v','test_web.py',"--html=./re/res.html"])
+#     # pytest.main(["-m","-s","-v",report,"--self-contained-html"])
+#     # # 运行产出报告并发送至邮箱
+#     # # email = SendEmail().mail(report_name)
+#     # # if email:
+#     # #     print("邮件发送成功")
+#     # # else:
+#     # #     print("邮件发送失败")
+#     # print(os.getcwd())
+#     pytest.main()
+#     sleep(5)
+#     os.system("allure generate ./allure-results -o ./allure-reports --clean")
