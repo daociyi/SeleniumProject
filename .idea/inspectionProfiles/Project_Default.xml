@@ -12,6 +12,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="pytest.assume" />
+          <option value="allure" />
         </list>
       </option>
     </inspection_tool>

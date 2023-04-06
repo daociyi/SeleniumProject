@@ -5,21 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290b4a3b-6ac9-42d8-810d-365ac472bbed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/SeleniumProiect.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SeleniumProiect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SeleniumProiect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/base/BaseOperate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/base/Config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/base/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/operate/DisinfectionManage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/operate/FoodManage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/operate/LoginOperate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/operate/PersonnalManage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/operate/code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unittest/code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unittest/unittest_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/data/test-cases/c15ddaf8e536934a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3415c321-164c-48c7-b985-3873861e14d9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/59fe114c-bd45-4fe7-a8b7-8a7f7c06a5f0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7a679852-061f-4de3-b21b-e0dd64bbf3be-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/BaseOperate.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/BaseOperate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code.png" beforeDir="false" afterPath="$PROJECT_DIR$/code.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/登录测试日志.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/登录测试日志.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/食材管理日志.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/食材管理日志.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/code.png" beforeDir="false" afterPath="$PROJECT_DIR$/tests/code.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_case.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +119,9 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
@@ -175,11 +199,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;D:/pythonworkspace/SeleniumProiect&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/pythonworkspace/SeleniumProject",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\pythonworkspace\SeleniumProiect" />
@@ -193,7 +219,7 @@
       <recent name="D:\pythonworkspace\SeleniumProiect\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.LoginOperate">
+  <component name="RunManager" selected="Python.run">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="SeleniumProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -253,6 +279,28 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="DisinfectionManage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page/DisinfectionManage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Log" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SeleniumProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -297,6 +345,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="SeleniumProiect" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Python37\python.exe" />
+      <option name="SDK_NAME" value="Python 3.7" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="SeleniumProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -319,20 +390,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SeleniumProject" />
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProiect" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="D:\Python37\python.exe" />
+      <option name="SDK_NAME" value="Python 3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/conftest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -341,42 +413,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="log" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SeleniumProject" />
+    <configuration name="test_case" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProiect" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/log" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\pythonworkspace\SeleniumProiect\python\log\Log.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="logging" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SeleniumProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/log" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\pythonworkspace\SeleniumProiect\python\log\Log.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_case.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -386,13 +436,14 @@
       <method v="2" />
     </configuration>
     <configuration name="test_case.py" type="PythonConfigurationType" factoryName="Python">
-      <module name="SeleniumProject" />
+      <module name="SeleniumProiect" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\pythonworkspace\SeleniumProiect\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="D:\pythonworkspace\SeleniumProject\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.7 (SeleniumProject)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -456,20 +507,21 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.test_case.py" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.DisinfectionManage" />
+      <item itemvalue="Python.test_case" />
       <item itemvalue="Python.Log" />
       <item itemvalue="Python.LoginOperate" />
-      <item itemvalue="Python.conftest" />
-      <item itemvalue="Python.log" />
-      <item itemvalue="Python.logging" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.test_case" />
+        <item itemvalue="Python.DisinfectionManage" />
         <item itemvalue="Python.LoginOperate" />
         <item itemvalue="Python.Log" />
-        <item itemvalue="Python.log" />
-        <item itemvalue="Python.logging" />
-        <item itemvalue="Python.conftest" />
       </list>
     </recent_temporary>
   </component>

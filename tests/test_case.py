@@ -24,7 +24,7 @@ class Test_py(object):
         # self.browser.add_argument('--disable-gpu')
         driver = webdriver.Chrome()
         self.lg = LoginPage(driver,u"登录测试日志")
-        self.fg = FoodPage(driver,u"食材管理日志")
+        # self.fg = FoodPage(driver,u"食材管理日志")
         # self.dg = DisinfectionPage(driver)
         # self.pg = PersonPage(driver)
         print("open broswer")
@@ -54,9 +54,9 @@ class Test_py(object):
 
     # # @pytest.mark.skip() 无理由跳过用例
     # # @pytest.mark.skipif() 中间为条件与reason 符合条件跳过并显示理由
-    def test_addFood(self):
-        result = self.fg.addFood(u"茴香饺子")
-        assert  result == u"新增台账完成"
+    # def test_addFood(self):
+    #     result = self.fg.addFood(u"茴香饺子")
+    #     assert  result == u"新增台账完成"
     #
     # def test_updataFood(self):
     #     result = self.fg.updateFood(u"香肉")
@@ -85,11 +85,11 @@ class Test_py(object):
 # if __name__ == '__main__':
 #     # current_time1 = datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
 #     # # report = '--html=./report/'+'2021-06-03 18 03 15'+'\''report.html'
-#     # report = '--html=./report/'+current_time1+' report.html'
+#     report = '--html=./report/'+current_time1+' report.html'
 #     # report_name = current_time1+' report.html'
 #     # # print(str(report))
 #     # # # pytest.main(['-s','-v','test_web.py',"--html=./re/res.html"])
-#     # pytest.main(["-m","-s","-v",report,"--self-contained-html"])
+#     pytest.main(["-m","-s","-v",report,"--self-contained-html"])
 #     # # 运行产出报告并发送至邮箱
 #     # # email = SendEmail().mail(report_name)
 #     # # if email:

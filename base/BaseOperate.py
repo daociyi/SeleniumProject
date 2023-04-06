@@ -4,6 +4,7 @@ import pytesseract
 from PIL import Image
 from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
+from selenium.webdriver.common.by import By
 
 from log.Log import Logger
 
@@ -12,7 +13,7 @@ class BaseOperate():
 
     def __init__(self,driver,loggname):
     # def __init__(self,loggname):
-        # driver = webdriver.Firefox
+    #     driver = webdriver.Chrome()
         self.logger = Logger(loggname)
         self.driver = driver
         self.driver.maximize_window()
@@ -26,7 +27,7 @@ class BaseOperate():
 
     def findElementByXPathClear(self,xpath):
         try:
-            self.inputXPath1 = self.driver.find_element_by_xpath(xpath)
+            self.inputXPath1 = self.driver.find_element(By.XPATH,xpath)
             self.inputXPath1.clear()
             self.logger.getLog("清除{}".format(self.inputXPath1.get_attribute("placeholder")))
         except WebDriverException as e:
@@ -34,7 +35,7 @@ class BaseOperate():
 
     def  findItemInputViewt(self,xpath,text):
         try:
-            self.inputXPath2 = self.driver.find_element_by_xpath(xpath)
+            self.inputXPath2 = self.driver.find_element(By.XPATH,xpath)
             self.inputXPath2.send_keys(text)
             time.sleep(1)
             self.logger.getLog("输入{}".format(text))
@@ -42,16 +43,16 @@ class BaseOperate():
             self.logger.getErrorLog(str(e))
 
     def findElementByCssSelector(self,css_selector):
-        self.css_picture = self.driver.find_element_by_css_selector(css_selector)
+        self.css_picture = self.driver.find_element(By.CSS_SELECTOR,css_selector)
         return self.css_picture
 
     def getTextByClassName(self,classname):
-        self.text = self.driver.find_element_by_class_name(classname).text
+        self.text = self.driver.find_element(By.CLASS_NAME,classname).text
         return self.text
 
 
     def clickDelay(self,xpath):
-        clickXPath = self.driver.find_element_by_xpath(xpath)
+        clickXPath = self.driver.find_element(By.XPATH,xpath)
         self.driver.execute_script("arguments[0].click();",clickXPath)
         time.sleep(1)
 
@@ -60,13 +61,13 @@ class BaseOperate():
         time.sleep(1)
 
     def listElementXPathAndClass(self,xpath,classname):
-        self.list = self.driver.find_elements_by_xpath(xpath)
-        arrayList = self.list.__getitem__(0).find_elements_by_class_name(classname)
+        self.list = self.driver.find_elements(By.XPATH,xpath)
+        arrayList = self.list.__getitem__(0).find_elements(By.CLASS_NAME,classname)
         return  arrayList
 
     def listElementXPathAndLinktext(self,xpath,link_text):
-        self.list = self.driver.find_elements_by_xpath(xpath)
-        arrayList = self.list.__getitem__(0).find_elements_by_link_text(link_text)
+        self.list = self.driver.find_elements(By.XPATH,xpath)
+        arrayList = self.list.__getitem__(0).find_elements(By.LINK_TEXT,link_text)
         return  arrayList
 
     def codeVerification(self,img):
