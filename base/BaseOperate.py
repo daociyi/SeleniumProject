@@ -129,7 +129,7 @@ class BaseOperate():
                     else:
                         pass
         tesseract_dir = '--tesseract "D:\\Tesseract-OCR\\tessdata"'
-        result = pytesseract.image_to_string(img,config=tesseract_dir)
+        result = pytesseract.image_to_string(img,config=tesseract_dir,lang='eng')
         # 去除不相关标识符,用字典的方式 string代表查到的字符 replace_dict[string]为查到字符对应的替换
         code = ''
         for key in result:
