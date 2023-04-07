@@ -24,7 +24,8 @@ class Test_py(object):
         # self.browser.add_argument('--disable-gpu')
         options = webdriver.ChromeOptions()
         options.binary_location = r'C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe'
-        driver= webdriver.Chrome("C:/Users/Administrator/AppData/Local/Google/Chrome/Application/chromedriver.exe")
+        options.add_experimental_option('excludeSwitches', ['enable-logging'])
+        driver= webdriver.Chrome("C:/Users/Administrator/AppData/Local/Google/Chrome/Application/chromedriver.exe",options=options)
         self.lg = LoginPage(driver,u"登录测试日志")
         # self.fg = FoodPage(driver,u"食材管理日志")
         # self.dg = DisinfectionPage(driver)
