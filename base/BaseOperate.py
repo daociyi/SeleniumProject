@@ -128,7 +128,8 @@ class BaseOperate():
                                     img.putpixel((img_x, img_y), 255)  # 取白
                     else:
                         pass
-        result = pytesseract.image_to_string(img)
+        tesseract_dir = '--tesseract-dir "D:\\Tesseract-OCR\\tessdata"'
+        result = pytesseract.image_to_string(img,config=tesseract_dir,lang='eng')
         # 去除不相关标识符,用字典的方式 string代表查到的字符 replace_dict[string]为查到字符对应的替换
         code = ''
         for key in result:
