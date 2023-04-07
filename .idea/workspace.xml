@@ -4,43 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="290b4a3b-6ac9-42d8-810d-365ac472bbed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/SeleniumProiect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SeleniumProiect.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="290b4a3b-6ac9-42d8-810d-365ac472bbed" name="Default Changelist" comment="修改项目架构">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-reports/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/data/categories.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/data/packages.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/data/suites.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-reports/data/test-cases/c15ddaf8e536934a.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/data/timeline.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/export/influxDbData.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/history/categories-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/history/duration-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/history/history-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/history/history.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/plugins/behaviors/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/plugins/behaviors/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/plugins/packages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/plugins/packages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/plugins/screen-diff/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/plugins/screen-diff/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/plugins/screen-diff/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/plugins/screen-diff/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/categories.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/duration-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/widgets/environment.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/environment.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/widgets/executors.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/executors.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/widgets/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/launch.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/retry-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/severity.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/status-chart.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/suites.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3415c321-164c-48c7-b985-3873861e14d9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/59fe114c-bd45-4fe7-a8b7-8a7f7c06a5f0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7a679852-061f-4de3-b21b-e0dd64bbf3be-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/BaseOperate.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/BaseOperate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/code.png" beforeDir="false" afterPath="$PROJECT_DIR$/code.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/登录测试日志.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/登录测试日志.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/食材管理日志.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/食材管理日志.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/code.png" beforeDir="false" afterPath="$PROJECT_DIR$/tests/code.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_case.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,13 +202,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/pythonworkspace/SeleniumProject",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/pythonworkspace/SeleniumProject&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\pythonworkspace\SeleniumProiect" />
@@ -674,7 +677,49 @@
       <option name="project" value="LOCAL" />
       <updated>1646901837781</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="修改项目架构">
+      <created>1680753001842</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680753001842</updated>
+    </task>
+    <task id="LOCAL-00011" summary="修改项目架构">
+      <created>1680767743620</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680767743620</updated>
+    </task>
+    <task id="LOCAL-00012" summary="修改项目架构">
+      <created>1680850812660</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680850812660</updated>
+    </task>
+    <task id="LOCAL-00013" summary="修改项目架构">
+      <created>1680851888618</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680851888618</updated>
+    </task>
+    <task id="LOCAL-00014" summary="修改项目架构">
+      <created>1680852854099</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680852854099</updated>
+    </task>
+    <task id="LOCAL-00015" summary="修改项目架构">
+      <created>1680857212012</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680857212012</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
