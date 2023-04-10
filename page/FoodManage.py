@@ -24,7 +24,7 @@ class FoodPage(BaseOperate):
         checkPerson_num = random.randint(0,len(checkPerson_li)-1)
         self.clickDelay_by_list(checkPerson_li[checkPerson_num])
         self.findItemInputViewt('//*[@id="accountRecordDetail"]/form/div[1]/div[1]/div/div/div/input',product)
-        self.findItemInputViewt('//*[@id="accountRecordDetail"]/form/div[4]/div[2]/div[1]/div/input',r"C:\Users\Administrator\Desktop\QQ截图20200616163201.png")
+        self.findItemInputViewt('//*[@id="accountRecordDetail"]/form/div[4]/div[2]/div[1]/div/input',r"C:\Users\Administrator\Desktop\图片素材\QQ截图20200616163201.png")
         self.clickDelay('//*[@id="accountRecordDetail"]/form/div[5]/button')
         result = u"新增台账完成"
         print(u"新增台账完成")
