@@ -1,1 +1,21 @@
-[{"uid":"63e26d25d86041cc","name":"test_login","time":{"start":1680752858619,"stop":1680752911328,"duration":52709},"status":"passed","severity":"normal"}]
+[ {
+  "uid" : "76c6a72271ca3a0",
+  "name" : "test_addFood",
+  "time" : {
+    "start" : 1681118175225,
+    "stop" : 1681118185453,
+    "duration" : 10228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5427f0c5063d87c0",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1681118129393,
+    "stop" : 1681118175212,
+    "duration" : 45819
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,1 +1,0 @@
-['- name : $csv{name}\n', '  id : $csv{name}\n', '    info :\n', '      classname : $csv{classname}\n', '      studentname : $cvs{studentname}\n', '      score : ${score}\n', '      level : ${level}']

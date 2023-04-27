@@ -1,1 +1,43 @@
-{"uid":"98d3104e051c652961429bf95fa0b5d6","name":"suites","children":[{"name":"tests","children":[{"name":"test_case","children":[{"name":"Test_py","children":[{"name":"test_login","uid":"63e26d25d86041cc","parentUid":"1801b73631567c216a09acefeb6334f1","status":"passed","time":{"start":1680752858619,"stop":1680752911328,"duration":52709},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[]}],"uid":"1801b73631567c216a09acefeb6334f1"}],"uid":"3568ef47ee5ecb01e944e080f33797a3"}],"uid":"e387fa4bb326b54ea8c19c2822aba374"}]}
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "test_case",
+      "children" : [ {
+        "name" : "Test_py",
+        "children" : [ {
+          "name" : "test_login",
+          "uid" : "5427f0c5063d87c0",
+          "parentUid" : "1801b73631567c216a09acefeb6334f1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1681118129393,
+            "stop" : 1681118175212,
+            "duration" : 45819
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_addFood",
+          "uid" : "76c6a72271ca3a0",
+          "parentUid" : "1801b73631567c216a09acefeb6334f1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1681118175225,
+            "stop" : 1681118185453,
+            "duration" : 10228
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1801b73631567c216a09acefeb6334f1"
+      } ],
+      "uid" : "3568ef47ee5ecb01e944e080f33797a3"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ]
+}

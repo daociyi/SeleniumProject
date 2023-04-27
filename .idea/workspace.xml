@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="290b4a3b-6ac9-42d8-810d-365ac472bbed" name="Default Changelist" comment="修改项目架构">
+    <list default="true" id="a43313c1-e0a7-4a70-bb79-6ab266ea0582" name="Changes" comment="修改项目架构">
+      <change afterPath="$PROJECT_DIR$/data/csvtrans_yaml.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-reports/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/data/behaviors.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/data/behaviors.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/data/categories.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/data/packages.json" afterDir="false" />
@@ -40,10 +44,15 @@
       <change beforePath="$PROJECT_DIR$/allure-reports/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/status-chart.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/suites.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-reports/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-reports/widgets/summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/BaseOperate.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/BaseOperate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/code.png" beforeDir="false" afterPath="$PROJECT_DIR$/code.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/csvdata.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/csvdata.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/csvtans_yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/csvtrans.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/csvtrans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/csvtrans_yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/csvyaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/csvyaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/登录测试日志.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/登录测试日志.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/食材管理日志.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/食材管理日志.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +231,7 @@
       <recent name="D:\pythonworkspace\SeleniumProiect\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run">
+  <component name="RunManager" selected="Python.csvtrans">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="SeleniumProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -304,28 +313,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Log" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SeleniumProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/log" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/log/Log.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="LoginOperate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SeleniumProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -385,6 +372,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="csvtrans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProiect" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/csvtrans.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -510,21 +519,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.test_case.py" />
-      <item itemvalue="Python.run" />
       <item itemvalue="Python.DisinfectionManage" />
-      <item itemvalue="Python.test_case" />
-      <item itemvalue="Python.Log" />
       <item itemvalue="Python.LoginOperate" />
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.csvtrans" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.test_case" />
+      <item itemvalue="Python.test_case.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.csvtrans" />
         <item itemvalue="Python.run" />
         <item itemvalue="Python.test_case" />
         <item itemvalue="Python.DisinfectionManage" />
         <item itemvalue="Python.LoginOperate" />
-        <item itemvalue="Python.Log" />
       </list>
     </recent_temporary>
   </component>
@@ -534,7 +543,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="290b4a3b-6ac9-42d8-810d-365ac472bbed" name="Default Changelist" comment="" />
+      <changelist id="a43313c1-e0a7-4a70-bb79-6ab266ea0582" name="Changes" comment="修改项目架构" />
       <created>1597909700222</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -726,7 +735,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680857634475</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="修改项目架构">
+      <created>1680857819223</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680857819223</updated>
+    </task>
+    <task id="LOCAL-00018" summary="修改项目架构">
+      <created>1680858469374</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680858469374</updated>
+    </task>
+    <task id="LOCAL-00019" summary="修改项目架构">
+      <created>1681118410113</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1681118410113</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">

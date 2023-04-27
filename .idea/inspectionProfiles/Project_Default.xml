@@ -13,6 +13,7 @@
         <list>
           <option value="pytest.assume" />
           <option value="allure" />
+          <option value="tests.test_case.webdriver_manager" />
         </list>
       </option>
     </inspection_tool>

@@ -1,0 +1,49 @@
+- name : name1
+  info:
+   id : id1
+   classname : classname1
+   studentname : studentname2
+   score : 1
+   level : bad
+- name : name2
+  info:
+   id : id2
+   classname : classname2
+   studentname : studentname3
+   score : 2
+   level : great
+- name : name3
+  info:
+   id : id3
+   classname : classname3
+   studentname : studentname4
+   score : 3
+   level : notbad
+- name : name4
+  info:
+   id : id4
+   classname : classname4
+   studentname : studentname5
+   score : 4
+   level : good
+- name : name5
+  info:
+   id : id5
+   classname : classname5
+   studentname : studentname6
+   score : 4
+   level : great
+- name : name6
+  info:
+   id : id6
+   classname : classname6
+   studentname : studentname7
+   score : 5
+   level : good
+- name : name7
+  info:
+   id : id7
+   classname : classname7
+   studentname : studentname8
+   score : 7
+   level : bad
